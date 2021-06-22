@@ -27,4 +27,5 @@ const getImg = function(url) {
 
 getImg('xxx').then(base64Str => {
     // use the base64 string here
+    // fyi: you should add data:image/png;base64, string before the base64Str，while image/png should be changed to the type of image if it's not png
 });
